@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(74, 65, 65);
+    background-image: url("stopwatchbg.jpg");
+    background-size: cover;     
+    backdrop-filter: blur(0.05);    
+    background-position: center;
+    background-repeat: no-repeat;   
+    /* height:100%;
+    width:100% */
+
+}
+
+#watch{
+    width: 270px;
+    height:180px;
+    margin-left: 40%;
+    margin-top: 15%;
+    place-items: center;
+    border:2px solid rgb(142, 142, 177);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0 ,0 ,0 ,0.4);
+    backdrop-filter: blur(0.1px);
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    opacity:0.5;
+}
+#watch:hover{
+    opacity:1;
+}
+/* div{
+    height: 180px;
+    width:150px;
+} */
+
+img{
+    place-items: center;    
+}
